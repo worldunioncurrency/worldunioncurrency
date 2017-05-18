@@ -1,0 +1,34 @@
+src/*.exe
+src/worldunioncurrency
+src/worldunioncurrencyd
+src/test_worldunioncurrency
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.worldunioncurrency
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+worldunioncurrency-qt
+WorldUnionCurrency-Qt.app
+
+# Unit-tests
+Makefile.test
+worldunioncurrency-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
